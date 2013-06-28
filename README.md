@@ -1,4 +1,4 @@
-regexp
+regexp.js version 0.0.1
 ======
 
 javascript Regular Expression library by www.javaquery.com
