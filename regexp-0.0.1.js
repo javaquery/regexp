@@ -18,6 +18,7 @@
  *  
  *  Author:
  *  - Vicky Thakor (vkijust4u@javaquery.com)
+ *  - Carlo DiCelico (carlo@diceli.co)[http://carlo.diceli.co]
  */
 var regularExpression_email = /^\w+[\+\.\w-]*@([\w-]+\.)*\w+[\w-]*\.([a-z]{2,4}|\d+)$/i;
 /* It'll match words like #javaQuery */
@@ -83,3 +84,6 @@ var regularExpression_12Hour = /(1[012]|^[0-9]{1}):([0-5]{1}[0-9]{1})(am|pm)$/;
 var regularExpression_24Hour = /([01][0-9]{1}|2[0-3]{1}):[0-5]{1}[0-9]{1}/;
 /* It'll match MAC Address ##-##-##-##-##-##*/
 var regularExpression_MAC = /^[A-Z0-9]{2}-[A-Z0-9]{2}-[A-Z0-9]{2}-[A-Z0-9]{2}-[A-Z0-9]{2}-[A-Z0-9]{2}$/;
+/* It'll match URL with HTTP/HTTPS and with or without www */
+// Author : Carlo DiCelico 
+var regularExpression_url = /((https?\:\/\/)|(www\.))(\S+)(\w{2,4})(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?/;
